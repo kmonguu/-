@@ -1,4 +1,4 @@
-// 1. 계산기
+// 1. 두 수를 더하는 계산기 프로그램
 
 void CTest1Dlg::OnBnClickedButton1() {
     int a = GetDlgItemInt(IDC_EDIT1);
@@ -7,7 +7,9 @@ void CTest1Dlg::OnBnClickedButton1() {
     SetDlgItemInt(IDC_EDIT3);
 }
 
-// 2. 초록색 펜
+
+// 2. 초록색의 8픽셀로 된 마우스 펜
+
 CPoint oPnt;
 void CMFCApplication3Dlg::OnMouseMove(UINT nFlags, CPoint point) {
 	if (nFlags == MK_LBUTTON) {
